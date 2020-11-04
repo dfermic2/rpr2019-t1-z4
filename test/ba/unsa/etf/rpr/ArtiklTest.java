@@ -8,25 +8,20 @@ class ArtiklTest {
 
     @Test
     void getNaziv() {
+        Artikl artikl = new Artikl("art1", 20, "5");
+        assertEquals("art1", artikl.getNaziv());
     }
 
     @Test
     void getCijena() {
+        Artikl artikl = new Artikl("art1", 20, "5");
+        assertEquals(20, artikl.getCijena());
     }
 
     @Test
     void getKod() {
+        Artikl artikl = new Artikl("art1", 20, "5");
+        assertEquals("5", artikl.getKod());
     }
 
-    @Test
-    void setNaziv() {
-    }
-
-    @Test
-    void setCijena() {
-    }
-
-    @Test
-    void setKod() {
-    }
 }

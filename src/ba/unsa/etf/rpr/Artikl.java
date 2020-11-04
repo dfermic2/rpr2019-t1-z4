@@ -22,7 +22,7 @@ public class Artikl {
         return kod;
     }
 
-    public void setNaziv(String naziv) {
+    /*public void setNaziv(String naziv) {
         this.naziv = naziv;
     }
 
@@ -32,6 +32,6 @@ public class Artikl {
 
     public void setKod(String kod) {
         this.kod = kod;
-    }
+    }*/
 
 }
