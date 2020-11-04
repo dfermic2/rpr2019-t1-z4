@@ -1,11 +1,11 @@
 package ba.unsa.etf.rpr;
 
 public class Korpa {
-    Artikl[] artikli;
+    private Artikl[] artikli = new Artikl[50];
 
-    public Korpa() {
+    /*public Korpa() {
         this.artikli = new Artikl[50];
-    }
+    }*/
 
     public Artikl[] getArtikli() {
         return artikli;

@@ -1,11 +1,11 @@
 package ba.unsa.etf.rpr;
 
 public class Supermarket {
-    Artikl [] artikli;
+    Artikl [] artikli = new Artikl[1000];
 
-    public Supermarket() {
+    /*public Supermarket() {
         this.artikli = new Artikl[1000];
-    }
+    }*/
 
     public boolean dodajArtikl(Artikl artikl) {
         for(int i = 0; i < artikli.length; i++) {

@@ -21,4 +21,16 @@ public class Artikl {
     public String getKod() {
         return kod;
     }
+
+    /*public void setNaziv(String naziv) {
+        this.naziv = naziv;
+    }
+
+    public void setCijena(int cijena) {
+        this.cijena = cijena;
+    }
+
+    public void setKod(String kod) {
+        this.kod = kod;
+    }*/
 }
